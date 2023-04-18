@@ -87,7 +87,7 @@ Review the provided design files for the menu page.
 ​
 * [x] Copy and paste your home page header and footer into the menu page.
 * [ ] Update the header image with the menu page image.
-* [ ] Use the article element for the menu and a div inside of it; change the div's class to "menu-container"
+* [x] Use the article element for the menu and a div inside of it; change the div's class to "menu-container"
 * [ ] Create a container for each section (e.g. drinks or entrees) with class "menu-section"
 * [ ] Create a container for each item (e.g. soda or burger) with class "menu-item"
 * [ ] Add an H4 for every price and title of the menu, two h4 for each menu
