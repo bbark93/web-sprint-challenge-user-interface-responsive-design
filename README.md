@@ -86,7 +86,7 @@ Dark transparency: background-color: rgb(0, 4, 17, .8);
 Review the provided design files for the menu page.
 ​
 * [x] Copy and paste your home page header and footer into the menu page.
-* [ ] Update the header image with the menu page image.
+* [x] Update the header image with the menu page image.
 * [x] Use the article element for the menu and a div inside of it; change the div's class to "menu-container"
 * [x] Create a container for each section (e.g. drinks or entrees) with class "menu-section"
 * [x] Create a container for each item (e.g. soda or burger) with class "menu-item"
