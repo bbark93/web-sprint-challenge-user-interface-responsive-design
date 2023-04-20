@@ -129,15 +129,18 @@ header nav {
 /* gallery section */
 .gallery {
     width: 100%;
-    height: 100vh;
     text-align: center;
     background-color: rgb(0, 4, 17);
+}
+.gallery img {
+    width: 25%;
+    margin: 2%;
 }
 
 /* about us section */
 .about {
     width: 100%;
-    height: 75vh;
+    /*height: 75vh;*/
     text-align: center;
     background-image: url("../img/staff-cooks.jpg");
     background-size: cover;
@@ -159,7 +162,11 @@ header nav {
 }
 
 .about-container .text {
-    width: 50%;
+    width: 75%;
+
+}
+.about-container .text p {
+    font-size: 2.5rem;
 }
 
 /* contact us section */
@@ -182,12 +189,17 @@ header nav {
     padding-top: 5vh;
 }
 
-.contact h3 {
+.contact-container h3 {
     padding-top: 2.5vh;
+    font-size: 3.0rem;
 }
 
-.contact p {
+.contact-container p {
     padding: .5vh 0;
+    font-size: 2.2rem;
+}
+.contact-container a {
+    font-size: 2.2rem;
 }
 
 .info {
@@ -209,17 +221,38 @@ header nav {
     width: 25%;
 }
 
-/* footer section */
+
 footer {
     width: 100%;
-    height: 15vh;
+    /*height: 15vh;*/
     padding-top: 2.5vh;
     display: flex;
+    justify-content: space-around;
     font-size: 3rem;
-    background-color: rgb(0, 4, 17);
+    background-color:rgb(0, 4, 17);
+}
+footer .email {
+    width: 25%;
+}
+.email input{
+    width: 200px;
+    height: 25px;
+}
+.email button {
+    width: 80px;
+    height: 25px;
+}
+footer div {
+    width: 65%;
+}
+.foot-nav {
+    display: flex;
+    justify-content: space-around;
 }
 
 .copyright p {
+    display: flex;
+    justify-content: flex-end;
     font-size: 1.5rem;
 }
 
